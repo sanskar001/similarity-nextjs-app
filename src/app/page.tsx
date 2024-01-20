@@ -1,3 +1,11 @@
+import Paragraph from "../components/UI/Paragraph";
+
 export default function Home() {
-  return <div className="text-green-500 bg-emerald-50">Hello World</div>;
+  return (
+    <div>
+      <Paragraph className="border border-black" size="sm">
+        Hello
+      </Paragraph>
+    </div>
+  );
 }
