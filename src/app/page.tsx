@@ -1,10 +1,10 @@
-import { Metadata } from "next";
-import LargeHeading from "@/components/ui/LargeHeading";
-import Paragraph from "@/components/ui/Paragraph";
+import type { Metadata } from "next";
+import LargeHeading from "@/ui/LargeHeading";
+import Paragraph from "@/ui/Paragraph";
 import Link from "next/link";
 import Image from "next/image";
 
-export const metaData: Metadata = {
+export const metadata: Metadata = {
   title: "Similarity API | Home",
   description: "Free & open-source text similarity API",
 };
